@@ -59,5 +59,5 @@ If you have any questions or need further assistance, please contact Tanishq kou
 Enjoy using the PI360 App!
 
 
-- tanishqkoul: Your GitHub username.
-- koul.tanishq111@gmail.com: Your contact email.
+- tanishqkoul: My GitHub username.
+- koul.tanishq111@gmail.com: My contact email.
