@@ -42,7 +42,20 @@ import StudentHigherStudiesList from './components/StudentPlacement/StudentHighe
 import StudentHigherStudiesDetails from './components/StudentPlacement/StudentHigherStudiesDetails';
 import StudentInternshipList from './components/StudentPlacement/StudentInternshipList';
 import StudentInternshipDetails from './components/StudentPlacement/StudentInternshipDetails';
-
+import StudentEntrepreneurshipList from './components/StudentPlacement/StudentEntrepreneurshipList';
+import StudentEntrepreneurshipDetails from './components/StudentPlacement/StudentEntrepreneurshipDetails';
+import DepartmentalGuestLecturesList from './components/DepartmentalActivities/GuestLecturesList';
+import DepartmentalGuestLectureDetails from './components/DepartmentalActivities/GuestLectureDetails';
+import IndustrialVisitsList from './components/DepartmentalActivities/IndustrialVisitsList';
+import IndustrialVisitDetails from './components/DepartmentalActivities/IndustrialVisitDetails';
+import ValueAddedCoursesList from './components/DepartmentalActivities/ValueAddedCoursesList';
+import ValueAddedCourseDetails from './components/DepartmentalActivities/ValueAddedCourseDetails';
+import OtherDepartmentalActivitiesList from './components/DepartmentalActivities/OtherDepartmentalActivitiesList';
+import OtherDepartmentalActivitiesDetails from './components/DepartmentalActivities/OtherDepartmentalActivitiesDetails';
+import StudentAchievementsList from './components/Achievements/StudentAchievementsList';
+import StudentAchievementDetails from './components/Achievements/StudentAchievementDetails';
+import StaffAchievementsList from './components/Achievements/StaffAchievementsList';
+import StaffAchievementDetails from './components/Achievements/StaffAchievementDetails';
 
 const App = () => {
   const researchPublicationId = 123; // Replace with the ID of the research publication you want to display
@@ -157,8 +170,51 @@ const App = () => {
         <Text>Student Internships List</Text>
       </StudentInternshipList>
       <StudentInternshipDetails>
-      <Text>Student Internship Details</Text>
+        <Text>Student Internship Details</Text>
       </StudentInternshipDetails>
+      <StudentEntrepreneurshipList>
+        <Text>Student Entrepreneurship List</Text>
+      </StudentEntrepreneurshipList>
+      <StudentEntrepreneurshipDetails>
+        <Text>Student Entrepreneurship Details</Text>
+      </StudentEntrepreneurshipDetails>
+      <DepartmentalGuestLecturesList>
+        <Text>Departmental Guest Lectures List</Text>
+      </DepartmentalGuestLecturesList>
+      <Text>Departmental Guest Lecture Details</Text>
+      <DepartmentalGuestLectureDetails>
+        <Text>Departmental Guest Lecture Details</Text>
+      </DepartmentalGuestLectureDetails>
+      <IndustrialVisitsList>
+        <Text>Industrial Visits List</Text>
+      </IndustrialVisitsList>
+      <IndustrialVisitDetails>
+        <Text>Industrial Visit Details</Text>
+      </IndustrialVisitDetails>
+      <ValueAddedCoursesList>
+        <Text>Value-Added Courses List</Text>
+      </ValueAddedCoursesList>
+      <ValueAddedCourseDetails>
+        <Text>Value-Added Course Details</Text>
+      </ValueAddedCourseDetails>
+      <OtherDepartmentalActivitiesList>
+        <Text>Other Departmental Activities List</Text>
+      </OtherDepartmentalActivitiesList>
+      <OtherDepartmentalActivitiesDetails>
+        <Text>Other Departmental Activities Details</Text>
+      </OtherDepartmentalActivitiesDetails>
+      <StudentAchievementsList>
+        <Text>Student Achievements List</Text>
+      </StudentAchievementsList>
+      <StudentAchievementDetails>
+        <Text>Student Achievement Details</Text>
+      </StudentAchievementDetails>
+      <StaffAchievementsList>
+        <Text>Staff Achievements List</Text>
+      </StaffAchievementsList>
+      <StaffAchievementDetails> 
+        <Text>Staff Achievement Details</Text>
+      </StaffAchievementDetails> 
     </View>
   );
 }
